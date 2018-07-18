@@ -2,11 +2,32 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>{% block title %}Cake Shop!{% endblock %}</title>
+        {% block stylesheets %}
+            <link href="{{ asset('css/blog.css') }}" type="text/css" rel="stylesheet">
+            <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        <div>
+            <div id="inicio">
+                <img src="{{ asset('imagens/cake-logo.png') }}" class="logo">
+            </div>
+            <div class="color">
+                <ul>
+                    <li><a class="active" href="#inicio">Inicio</a></li>
+                    <li><a href="#encomendas">Encomendas</a></li>
+                    <li><a href="#contact">Contactos</a></li>
+                    <li style="float:right"><a href="#">Autor</a></li>
+                    <li style="float:right"><a href="#">Email</a></li>
+                    <li style="float:right"><a href="#">Mensagem</a></li>
+                </ul>
+            </div>
+            {% block body %}{% endblock %}
+        </div>
+        <div id="contact">
+            <h3>Isabel Silva <strong>|</strong> isabel.6.066@gmail.com</h3>
+        </div>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
