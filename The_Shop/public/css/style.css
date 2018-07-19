@@ -1,0 +1,216 @@
+body{
+    background-color: #ffd1e0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-width: 800px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 550px 550px;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 30px;
+    margin-top: 90px;
+    justify-items: center;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+}
+div .bolo{
+    font-size: 15px;
+    padding: 0;
+    text-align: center;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+}
+
+#inicio{
+    background-color: #ffa4c2;
+    height: 150px;
+}
+.bolo {
+    width: 300px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 1);
+}
+.preco {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 20px;
+    height: auto;
+}
+.description {
+    font-family: Work Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.29;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4a4a4a;
+    padding: 8px 8px 8px 8px;
+    border-top: 1px solid #4a4a4a;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+h1{
+    padding: 15px;
+    color: #601b1b;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 30px;
+    text-align: center;
+}
+h3{
+    padding: 10px;
+    color: #000000;
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.color{
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #1e84ab;
+}
+#contact{
+    text-align: center;
+}
+.top{
+
+    background-color: #333;
+}
+.encomenda{
+    display: block;
+    position: center;
+    margin-top: 50px;
+    margin-left: 30%;
+    text-align: left;
+    color: maroon;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 3%;
+}
+.encomenda h2, .email h2{
+    margin-left: 10%;
+    margin-bottom: 7%;
+    color: #601b1b;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 20px;
+}
+.enviar{
+    display: block;
+    position: absolute;
+    left: 30%;
+}
+.enviar button{
+    background-color: #ff61ac;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 330px;
+    cursor: pointer;
+}
+#contact{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.informacao{
+    display: block;
+    position: center;
+    margin-top: 50px;
+    margin-left: 37%;
+    text-align: left;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    color: maroon;
+    font-weight: bold;
+}
+.informacao p{
+    color: black;
+}
+.email{
+    display: block;
+    position: center;
+    margin-top: 50px;
+    margin-left: 30%;
+    text-align: left;
+    color: maroon;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Helvetica,sans-serif;
+    margin-bottom: 3%;
+}
+.email input[type="email"]{
+    width: 60%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: #ffd1e0;
+    margin-bottom: 2%;
+}
+.email textarea{
+    margin-top: 3%;
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #ffd1e0;
+    resize: none;
+}
+button#enviar{
+    margin-left: 2%;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 42%;
+    cursor: pointer;
+}

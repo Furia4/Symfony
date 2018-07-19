@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{#
+    Aqui e feito o formulario quando terminar o exercicio 2
+    ser feito com a criacao de evento com javascript
+#}
+{% block body %}
+    <div class="encomenda">
+        <h2>Encomenda</h2>
+        <label>Nome: <input type="text" name="nome"></label><br><br>
+        <label>Rua: <input type="text" name="rua"></label><br><br>
+        <label>Localidade: <input type="text" name="localidade"></label><br><br>
+        <label>Cidade: <input type="text" name="cidade"></label><br><br>
+        <label>Contacto: <input type="number" name="contacto"></label><br><br>
+        <label>Nome do Bolo: <input type="text" name="nome"></label><br><br>
+        <label>Data de Entrega: <input type="date" name="data_entrega"></label>
+    </div>
+    <div class="enviar">
+        <button id="submit">Enviar Pedido</button>
+    </div>
+{% endblock %}
