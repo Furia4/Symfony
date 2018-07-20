@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Formulário{% endblock %}
+
+{% block body %}
+    <h1>Formulário</h1>
+    <div class="form">
+        {{ form_start(form) }}
+            {{ form_row(form.name,{label: 'Nome: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.nickname,{label: 'Apelido: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.preferential_address,{label: 'Morada Preferencial: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.country, {label: 'País: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.city, {label: 'Cidade: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.street, {label: 'Rua: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.email, {label: 'Email: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.phone_number, {label: 'Telefone: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.phone_number2, {label: 'Telemóvel: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.date_of_birth, {label: 'Data de Nascimento: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.password, {label: 'Password: ', attr: {class: 'inputs'} }) }}<br>
+            {{ form_row(form.driving_license_number, {label: 'Numero da Carta de Condução: ', attr: {class: 'inputs'} }) }}<br>
+            <button type="submit">Register!</button>
+        {{ form_end(form) }}
+    </div>
+{% endblock %}

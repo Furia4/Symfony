@@ -1,0 +1,17 @@
+html{
+    background-color: #B0413E;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.form{
+    display: block;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 40%;
+}
+label{
+    font-size: 16px;
+}
