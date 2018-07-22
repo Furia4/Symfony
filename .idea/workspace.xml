@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a98fedd-7536-4ddd-b45c-e4a694d70ac7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Formulario/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/config/packages/knp_markdown.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/.env.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/src/Controller/FormAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/src/Controller/FormAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/src/Controller/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/src/Controller/FormController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formulario/templates/formulario/form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Formulario/templates/formulario/form.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +16,17 @@
     <pharConfigPath />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="knp_markdown.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Login/config/packages/knp_markdown.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,10 +58,13 @@
         <option value="$PROJECT_DIR$/Formulario/.env.dist" />
         <option value="$PROJECT_DIR$/Formulario/src/Entity/Dados.php" />
         <option value="$PROJECT_DIR$/Formulario/src/Controller/FormController.php" />
-        <option value="$PROJECT_DIR$/Formulario/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/Formulario/src/Controller/FormAdminController.php" />
-        <option value="$PROJECT_DIR$/Formulario/templates/formulario/form.html.twig" />
         <option value="$PROJECT_DIR$/Formulario/public/css/style.css" />
+        <option value="$PROJECT_DIR$/Formulario/config/packages/twig.yaml" />
+        <option value="$PROJECT_DIR$/Formulario/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/Formulario/templates/FOSFORMBundle/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/Formulario/templates/formulario/form.html.twig" />
+        <option value="$PROJECT_DIR$/Login/config/packages/knp_markdown.yaml" />
       </list>
     </option>
   </component>
@@ -81,11 +84,10 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="646" />
-    <option name="y" value="-20" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -106,13 +108,20 @@
             <path>
               <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="Symfony" type="462c0819:PsiDirectoryNode" />
-              <item name="The_Shop" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="Symfony" type="462c0819:PsiDirectoryNode" />
-              <item name="The_Shop" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,16 +161,19 @@
       <workItem from="1532085016965" duration="35000" />
       <workItem from="1532097462176" duration="714000" />
       <workItem from="1532104495438" duration="11940000" />
+      <workItem from="1532119715084" duration="1114000" />
+      <workItem from="1532254697170" duration="2015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24306000" />
+    <option name="totallyTimeSpent" value="27435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09765625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19556715" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006519" side_tool="true" weight="0.33054394" />
@@ -170,7 +182,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993481" visible="true" weight="0.4634483" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993481" visible="true" weight="0.46861926" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -189,6 +201,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Formulario/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/The_Shop/src/Controller/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -448,18 +467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../...tocache/the_spacebar/src/Controller/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Formulario/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Isabel Silva.tocache/the_spacebar/src/Controller/ArticleController.php" />
     <entry file="file://$PROJECT_DIR$/../Symfony1/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -471,10 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="e#6#94#0#PHP" expanded="true" />
-            <element signature="e#123#144#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,20 +489,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Formulario/templates/formulario/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Formulario/src/Controller/FormController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#34#55#0#PHP" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Formulario/templates/FOSFORMBundle/views/layout.html.twig" />
+    <entry file="file://$PROJECT_DIR$/Formulario/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Formulario/templates/formulario/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Formulario/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Formulario/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/config/packages/knp_markdown.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
