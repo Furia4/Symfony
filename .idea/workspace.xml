@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a98fedd-7536-4ddd-b45c-e4a694d70ac7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Login/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCare/config/packages/knp_markdown.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/Login/.env.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Login/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Login/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/config/packages/dev/debug.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/config/packages/dev/easy_log_handler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/config/packages/knp_markdown.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/config/packages/security_checker.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Login/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Login/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Login/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,14 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/login/src/Controller/DashboardController.php">
+      <file leaf-file-name="knp_markdown.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MedCare/config/packages/knp_markdown.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#34#80#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -111,6 +88,7 @@
         <option value="$PROJECT_DIR$/login/src/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/login/src/DataFixtures/UserFixture.php" />
         <option value="$PROJECT_DIR$/login/src/Controller/DashboardController.php" />
+        <option value="$PROJECT_DIR$/MedCare/config/packages/knp_markdown.yaml" />
       </list>
     </option>
   </component>
@@ -130,11 +108,10 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="278" />
-    <option name="y" value="-27" />
-    <option name="width" value="978" />
-    <option name="height" value="992" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -155,20 +132,20 @@
             <path>
               <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="Symfony" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="MedCare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="Symfony" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MedCare" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="Symfony" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="MedCare" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,18 +192,18 @@
       <workItem from="1532104495438" duration="11940000" />
       <workItem from="1532119715084" duration="1114000" />
       <workItem from="1532254697170" duration="6441000" />
-      <workItem from="1532344379316" duration="11036000" />
+      <workItem from="1532344379316" duration="12678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42897000" />
+    <option name="totallyTimeSpent" value="44539000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.100260414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20078227" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006519" side_tool="true" weight="0.33054394" />
@@ -235,7 +212,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993481" visible="true" weight="0.37793103" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993481" visible="true" weight="0.38214785" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -254,13 +231,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/The_Shop/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/The_Shop/templates/blog/email.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -569,10 +539,17 @@
     <entry file="file://$PROJECT_DIR$/login/src/Controller/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#34#80#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedCare/config/packages/knp_markdown.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
