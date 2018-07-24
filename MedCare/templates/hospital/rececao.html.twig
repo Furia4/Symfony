@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Receção{% endblock %}
+
+{% block stylesheets %}
+<link href="{{ asset('css/rececao.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+    <div>
+        <section>
+            <header id="cabecalho-artigo">
+                <h2>Urgência :: REGISTE O UTENTE</h2>
+            </header>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Dados do Utente</legend>
+                    <p><label>Nome: </label><input type="text" name="nome" id="nome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+                    <p><label>Idade: </label><input type="number" name="idade" id="idade" placeholder="Idade" ></p>
+                    <fieldset id="genero">
+                        <legend>Género:</legend>
+                        <input type="radio" name="radio" value="masculino"/><label>Masculino</label><br/>
+                        <input type="radio" name="radio" value="feminino"/><label>Feminino</label>
+                    </fieldset>
+                    <fieldset>
+                        <p><label for="cNome">Cidade: </label><input type="text" name="cidade" size="20" maxlength="30" placeholder="Nome Completo" /></p>
+                        <p>Rua: <input type="text" name="rua" id="rua" size="13" maxlength="80" placeholder="Rua, Av, Trav ..." /></p>
+                        <p>Número: <input type="number" name="nPorta" id="nPorta" min="1" max="1999" placeholder="Numero de porta" /></p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dados externos</legend>
+                        <p>Data de Entrada: <input type="text" name="data" id="data" onclick="setTime()" placeholder="Data e hora do sistema"></p>
+                    </fieldset>
+                    <fieldset id="cor">
+                        <legend>Prioridade:</legend>
+                        <label>
+                            <input type="radio" name="prioridade" value="verde"/>
+                        Verde</label><br/>
+                        <label><input type="radio" name="prioridade" value="amarelo"/>Amarelo</label><br />
+                        <label><input type="radio" name="prioridade" value="vermelho"/>Vermelho</label><br/>
+                        <label><input type="radio" name="prioridade" value="sem cor"/>Sem Cor</label>
+                    </fieldset>
+                </fieldset>
+                <div class="row">
+                    <button type="submit" value="submit" onclick="myFunction()">Submeter</button>
+                        <button type="reset" value="Repor">Repor</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+{% endblock %}

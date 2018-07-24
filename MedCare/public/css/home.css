@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    color: black
+}
+
+.top{
+    overflow: hidden;
+    background-color: #f44336;
+    margin: 0;
+    width: 100%;
+}
+
+.top a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.top a:hover{
+    background: white;
+    color: #f44336;
+}
+
+.departamentos{
+    float: left;
+    overflow: hidden;
+}
+.departamentos button{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.box{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.box a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.box a:hover {
+    background-color: #dddddd;
+}
+
+.departamentos:hover .box {
+    display: block;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.apresentacao{
+    margin: 5px;
+    padding-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.apresentacao h1{
+    letter-spacing: 2px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 34px;
+    text-align: center;
+    margin: 0;
+}
+
+.apresentacao p {
+    margin-top: 10px;
+    font-family: "calibri";
+    text-align: center;
+
+}
+
+.justify{
+    font-size: 18px;
+    text-align: justify!important;
+}
+
+.apresentacao p i{
+    color: grey;
+    font-size: 14px;
+    font-family: "calibri";
+    text-align: center;
+}
+
+.equipa{
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.equipa p{
+    text-align: center;
+}
+
+.equipa h2{
+    letter-spacing: 1px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #5c0000;
+    padding-bottom: 10px;
+}
+
+.imagens {
+    display: grid;
+    grid-template-rows: 50px 100px 100px;
+    grid-template-columns: 210px 210px 210px;
+    grid-gap: 5px;
+    margin-top: 10px;
+    justify-items: center;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    font-size: 16px;
+}
+
+.imagem2 img{
+    width: 150px;
+    height: 200px;
+}
+
+.contact{
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 250px;
+}
+
+.contact h2{
+    letter-spacing: 2px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 50px;
+
+}
+
+.contact p {
+    text-align: center;
+    margin: 10px;
+}
+
+.contact i{
+    color: grey;
+}
+.justify{
+    font-size: 18px;
+    text-align: justify!important;
+}
+
+.box-contact{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 400px 400px;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: stretch;
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+.localizacao{
+    margin: 5px;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.localizacao p{
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.localizacao img{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+form{
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.email{
+    padding-top: 30px;
+}
+
+form input[type=text]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type=submit] {
+    width: 25%;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    color: #f44336;
+    background-color: white;
+}
+
+.redesSociais {
+    padding-top: 100px;
+    background-color: #ededed;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-gap: 0px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.image img{
+    width: 30px;
+    height: 30px;
+}

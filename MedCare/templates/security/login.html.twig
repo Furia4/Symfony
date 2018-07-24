@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Login{% endblock %}
+
+{% block stylesheets %}
+    <link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+
+<div class="imgcontainer">
+    <div class="style">
+        <a href="{{ path('logout') }}">Logout</a>
+        <h1>Login</h1>
+        {% if error %}
+            <span class="error">{{ error.messageKey|trans(error.messageData, 'security') }}</span>
+        {% endif %}
+       <form action="{{  path('login') }}" method="post">
+           <p><label>Utilizador: <input type="text" name="_username" value="{{ last_username }}"></label></p>
+           <p><label>Password: <input type="password" name="_password"></label></p>
+           <button type="submit">Login</button>
+       </form>
+    </div>
+</div>
+
+{% endblock %}

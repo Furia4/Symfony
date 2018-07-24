@@ -1,0 +1,88 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}MedCare{% endblock %}
+
+{% block stylesheets %}
+    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+    <div>
+        <div class="top">
+            <a href="#">Home</a>
+            <a href="#quemSomos">Quem Somos</a>
+            <a href="#contactos">Contactos</a>
+            <div class="departamentos">
+                <button>Departamento</button>
+                <div class="box">
+                    <a href="../_departamentoTriagem/index.php">Triagem</a>
+                    <a href="../_departamentoConsultas/index.php">Consultas</a>
+                    <a href="../_departamentoExames/index.php">Exames</a>
+                    <a href="../_departamentoInternamento/index.php">Internamento</a>
+                    <a href="../_administracao/login/index.php">Administração</a>
+                </div>
+            </div>
+        </div>
+        <div class="empresa" id="quemSomos">
+            <div class="imagem">
+                <img src="{{ asset('img/hospital.jpg') }}">
+            </div>
+            <div class="apresentacao">
+                <h1>MedCare</h1>
+                <p><i>Nossa prioridade é a saúde do utente</i><p>
+                <p class="justify">A empresa nasceu em 2016 com o objetivo de facilitar o tempo de espera em Exames, Urgência do paciente. Atualmente localiza-se no centro do Porto. O utente aqui é a  nossa prioridade, a sua saúde é colocada em primeiro lugar com os nossos melhores especialistas. Temos a melhor equipa de cirurgia de ortopedia e plástica. Venha conhecer-nos.</p>
+            </div>
+        </div>
+        <div class="equipa">
+            <h2>Membros Principais da Equipa</h2>
+            <div class="imagens">
+                <div class="imagem2">
+                    <p>Carlos Pereira</p>
+                    <img src="{{ asset('img/medico2.jpg') }}">
+                </div>
+                <div class="imagem2">
+                    <p>Tiago Barbosa</p>
+                    <img src="{{ asset('img/medico1.jpg') }}">
+                </div>
+                <div class="imagem2">
+                    <p>Ricardo Soares</p>
+                    <img src="{{ asset('img/medico3.jpg') }}">
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contactos">
+            <h2>Contactos</h2>
+            <p><i>Precisa de Ajuda? Ligue!</i></p>
+            <div class="box-contact">
+                <div class="localizacao">
+                    <img src="{{ asset('img/_localizacao.jpg') }}"><p>Porto, Portugal<br></p><br>
+                    <img src="{{ asset('img/_telefone.jpg') }}"><p>252 345 422<br></p><br>
+                    <img src="{{ asset('img/_email.jpg') }}"><p>MedCare@gmail.com<br></p><br>
+                </div>
+                <div class="email">
+                    <form action="#" target="_blank">
+                        <input name="name" type="text" placeholder="Name">
+                        <input name="email" type="text" placeholder="Email">
+                        <input name="mensagem" type="text" placeholder="Mensagem"><br>
+                        <input name="botao" type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="redesSociais">
+            <div class="image">
+                <img src="{{ asset('img/_insta.jpg') }}">
+            </div>
+            <div class="image">
+                <img src="{{ asset('img/_face.jpg') }}">
+            </div>
+            <div class="image">
+                <img src="{{ asset('img/_linkedin.jpg') }}">
+            </div>
+            <div class="image">
+                <img src="{{ asset('img/_twitter.jpg') }}">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

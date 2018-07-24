@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body
+{
+    background-image: url("../img/background_Login.jpg");
+    background-size: cover;
+    font-family: "Helvetica", sans-serif;
+    color: rgba(0,0,0,1);
+}
+
+header#cabecalho-artigo h2 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #B22222;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+form
+{
+    padding: 0;
+    width: 500px;
+    margin: auto;
+}
+input, select {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    background-color: rgba(255,255,255,.8);
+}
+
+input:hover, select:hover{
+    background-color: #dddddd;
+}
+
+legend{
+    color: #353535;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #353535;
+    margin: 10px;
+}
+
+fieldset#genero {
+    width: 150px;
+}
+input[type=number]{
+    width: 180px;
+}
+input[type=text]{
+    width: 250px;
+}
+
+.row button[type=submit] {
+    margin: 20px;
+    background-color: #353535;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size:13px;
+    line-height: 1.4;
+    padding: 10px;
+    width: 100px
+}
+.row button[type=reset]{
+    margin: 0;
+    background-color: #353535;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size:13px;
+    line-height: 1.4;
+    padding: 10px;
+    width: 100px
+}
+
+.row button[type=submit]:hover,.row button[type=reset]:hover{
+    background-color: #dddddd;
+    color: #353535;
+}
